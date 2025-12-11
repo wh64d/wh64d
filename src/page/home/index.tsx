@@ -15,22 +15,27 @@ function HeroSection() {
 
 	return (
 		<div className="main-section hero">
-			<img className="hero-profile" src="/profile.webp" alt="" />
+			<a className="hero-profile" onClick={ev => {
+				ev.preventDefault();
+				alert("Hello, World!");
+			}}>
+				<img className="hero-profile" src="/profile.webp" alt="" />
+			</a>
 			<div>
 				<h1 className="hero-title text-5xl">
-					<b>Project_IO</b>
+					<b>WH64</b>
 				</h1>
 				<p className="hero-subtitle text-xl">
 					<b>Full-stack Dev & DevOps Engineer</b>
 				</p>
 				<div className="flex flex-row mt-1 mb-8 justify-center md:justify-start">
-					<Badge className="mr-1">projecttl.net</Badge>
-					<Badge className="mr-1" variant="secondary">wh64.net</Badge>
+					<Badge className="mr-1">wh64.net</Badge>
+					<Badge className="mr-1" variant="secondary">projecttl.net</Badge>
 					<Badge className="mr-1" variant="outline">tpr.kr</Badge>
 					<Badge variant="outline">naruc.kr</Badge>
 				</div>
 
-				<p className="hero-extra text-sm">항상 꼼꼼하게 확인하고 배포 자동화를 하는 DevOps 엔지니어 <b>김원혁(Project_IO)</b> 입니다.</p>
+				<p className="hero-extra text-sm">항상 꼼꼼하게 확인하고 배포 자동화를 하는 DevOps 엔지니어 <b>김원혁</b> 입니다.</p>
 				<div className="hero-actions">
 					<Button className="btn-gap" onClick={() => window.open("https://github.com/devproje", "_blank")}>
 						<GitBranch size={24} /> Go to Github

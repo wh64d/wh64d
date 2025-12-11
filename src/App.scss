@@ -80,6 +80,16 @@
 		border-radius: 100%;
 	}
 
+	.hero-profile-no-border {
+		max-width: 250px;
+		max-height: 250px;
+		margin: 0 0 1.5rem 0;
+
+		@media (min-width: 780px) {
+			margin: 0 8rem 0 0;
+		}
+	}
+
 	.hero-title {
 		width: 100%;
 		display: flex;

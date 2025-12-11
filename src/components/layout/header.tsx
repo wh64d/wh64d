@@ -32,6 +32,7 @@ function HeaderItems() {
 			<div className="nav-items">
 				<Current href="/" title="Home" />
 				<Current href="/contact" title="Contact" />
+				<Current href="/wserver" title="WSERVER" />
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
 						<button className="header-services">Service</button>

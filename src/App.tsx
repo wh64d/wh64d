@@ -3,6 +3,7 @@ import GeneralView from "@/components/layout/general-view";
 import Contact from "@/page/contact";
 import Home from "@/page/home";
 import "./App.scss";
+import WSERVER from "./page/wserver";
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 				<Route element={<GeneralView />}>
 					<Route path="/" index element={<Home />} />
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/wserver" element={<WSERVER />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
