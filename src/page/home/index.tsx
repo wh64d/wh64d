@@ -151,7 +151,7 @@ function SideNote() {
 			<ul className="stacks-tmi list-disc">
 				<li className="text-sm">
 					<p>WSERVER라는 3대의 Proxmox VE 클러스터와 Fedora 단일 노드가 있으며 총 4대의 노드를 운영 중입니다.</p>
-					<ul className="stacks-tmi list-circle">
+					{/* <ul className="stacks-tmi list-circle">
 						<li>
 							<b>W01:</b> Intel i5-7600, DDR4 48 GiB, HDD 10 TiB
 						</li>
@@ -164,7 +164,7 @@ function SideNote() {
 						<li>
 							<b>W04:</b> Ryzen 5 5600, 16 GiB, SSD 1 TiB
 						</li>
-					</ul>
+					</ul> */}
 				</li>
 				<li className="text-sm">Windows가 싫어서 Fedora를 사용하는 청년입니다. <del className="opacity-70">(WSL 안사요)</del></li>
 				<li className="text-sm">현재 동양미래대학교 컴퓨터정보공학과 23학번으로 재학중 입니다. <del className="opacity-70">집 보내줘요</del></li>

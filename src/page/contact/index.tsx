@@ -24,7 +24,7 @@ function Contact() {
 			<p className="mb-4">아래의 아이콘을 클릭하여 저와 연락을 해보세요!</p>
 			<div className="mt-8 flex w-full justify-evenly">
 				<IconLink href="mailto://me@projecttl.net" icon={<Mail size={64} />} name="Email" />
-				<IconLink href="https://github.com/wh64d" icon={<Github size={64} />} name="Github" />
+				<IconLink href="https://github.com/devproje" icon={<Github size={64} />} name="Github" />
 				<IconLink href="https://discord.gg/dd24sXm4R6" icon={<img src={discord} width={64} height={64} />} name="Discord" />
 			</div>
 		</div>
